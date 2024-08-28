@@ -7,4 +7,4 @@
 > - [個人網站](https://osga.lol)
 > - [Instagram](https://www.instagram.com/os324_/)
 > - [GitHub](https://github.com/osga24)
-> - [Discord]()
+> - [Discord](https://discord.com/users/osga_)
