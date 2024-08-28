@@ -1,9 +1,10 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+### Alo 我是OsGa ( •̀ ω •́ )✧
 
-::github{repo="saicaca/fuwari"}
+這裡是我的部落格，我會將一些我研究或我的筆記在這邊，如果你想個了解我請到我的[個人網站](https://osga.lol)！
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+> ### 個人資訊
+> - [個人網站](https://osga.lol)
+> - [Instagram](https://www.instagram.com/os324_/)
+> - [GitHub](https://github.com/osga24)
+> - [Discord]()
