@@ -3,7 +3,7 @@ title: Hello World
 published: 2024-08-29
 description: ''
 image: 'pic.jpg'
-tags: []
+tags: [Life]
 category: 'Life'
 draft: false 
 language: ''
