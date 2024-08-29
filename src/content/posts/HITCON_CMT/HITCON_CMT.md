@@ -35,7 +35,7 @@ language: ''
 這項議程不只單單講了關於 glitch 的知識和故事，還分享了有關於 glitch 社群及一群熱愛這款遊戲的玩家們無極限的研發新玩法！
 
 ![](yuda.JPG)
-> 有榮幸可以見到 [Yuda](https://www.youtube.com/@zb_yuhudaddy) 大大本人 真的是太帥la!!! 謝謝大大讓我有方便的風彈和月布可以用 ><
+> 有榮幸可以見到 [Yuda](https://www.youtube.com/@zb_yuhudaddy) 大大本人 真的是太帥la!!! 謝謝大大讓我有方便的風彈和月步可以用 ><
 
 # Lightning Talk
 
