@@ -2,7 +2,7 @@
 title: HITCON_CMT
 published: 2024-08-29
 description: ''
-image: '![alt text](hitcon_banner.png)'
+image: 'hitcon_banner.png'
 tags: [Life]
 category: 'Life'
 draft: false 
