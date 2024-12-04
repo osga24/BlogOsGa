@@ -1,5 +1,5 @@
 ---
-title: 在終端機也能使用 VScode 的 Liev Server!
+title: 在終端機也能使用 VScode 的 Live Server!
 published: 2024-09-29
 description: ''
 image: 'live_server_icon.webp'
