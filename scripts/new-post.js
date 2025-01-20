@@ -1,5 +1,3 @@
-/* This is a script to create a new post markdown file with front-matter */
-
 import fs from "fs"
 import path from "path"
 
@@ -28,8 +26,18 @@ if (!fileExtensionRegex.test(fileName)) {
   fileName += ".md"
 }
 
+// Remove the extension from the directory name
+const dirName = fileName.replace(fileExtensionRegex, "")
+
 const targetDir = "./src/content/posts/"
-const fullPath = path.join(targetDir, fileName)
+const postDir = path.join(targetDir, dirName)  // Directory name without .md extension
+
+// Create the directory if it doesn't exist
+if (!fs.existsSync(postDir)) {
+  fs.mkdirSync(postDir, { recursive: true })
+}
+
+const fullPath = path.join(postDir, "index.md")
 
 if (fs.existsSync(fullPath)) {
   console.error(`Error：File ${fullPath} already exists `)
@@ -43,11 +51,11 @@ description: ''
 image: ''
 tags: []
 category: ''
-draft: false 
+draft: false
 language: ''
 ---
 `
 
-fs.writeFileSync(path.join(targetDir, fileName), content)
+fs.writeFileSync(fullPath, content)
 
 console.log(`Post ${fullPath} created`)
