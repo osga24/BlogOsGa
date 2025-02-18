@@ -108,3 +108,6 @@ getSecretAnswer(command) {
 
 以上就是這次季中賽的題解，感謝各位參與，祝福各位都能參與下學期社課並持續在資安這條路前進，季末賽見。
 如有任合問題歡迎到 DC 開單或私訊詢問我！
+
+::github{repo="osga24/My-CTF-Challenge"}
+
