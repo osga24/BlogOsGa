@@ -51,11 +51,11 @@ language: ''
 喔對 路徑是有 base64 過的，但那不是 FLAG ，要自行切到該 page
 ![](urlpage.png)
 
-盡到該頁面會看到一顆按鈕，然後跑很快不管怎麼點都很難點，另外 F12 和一些可以開 Devtools 或 Source code 的 hotkey 都被禁掉了。
-這是想考個為怎麼用其他方式 bypass 這些黑名單。 
+進到該頁面會看到一顆按鈕，然後跑很快不管怎麼點都點不到，另外 F12 和一些可以開 Devtools 或 Source code 的 hotkey 都被禁掉了。
+這是想考個為怎麼用其他方式 bypass 這些黑名單。
 ![](part2.png)
 
-### 以下是幾個預期解：
+### 以下是幾個預期解:
 
 - 使用瀏覽器自身控制開啟 Devtools ，然後找到按鈕 id ，用 `document.getElementById('flag').click();` 觸發。
 ![](arcdevtools.png)
@@ -68,7 +68,7 @@ language: ''
 
 
 ## [Web] Vinci Code online 🛜
-這題也是想考 Code Review ，因為剛好那陣子有幫 SCIST 寒訓寫一個活動計分版，那時候有研究了下 WebSocket ，想到可以來簡單出一下
+因為剛好那陣子有幫 SCIST 寒訓寫一個活動計分版，那時候有研究了下 WebSocket ，想到可以來簡單出一下
 
 這是一個猜數字的網站，只有三次機會，Range 0~10000，就是希望你去找問題不是盲猜w
 ![](game.png)
@@ -96,7 +96,7 @@ getSecretAnswer(command) {
     return { status: 'error', message: 'Invalid command' };
 ```
 
-### 兩個預期解
+### 兩個預期解:
 - 透過 `wscat` 發送 `WebSocket` 請求
 ![](wscat.png)
 
